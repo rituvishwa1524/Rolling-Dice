@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rolling Dice Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 Roll the Dice</h1>
+
+    <div class="dice-container">
+      <img id="diceImage" src="assets/dice1.png" alt="Dice" />
+
+      <video id="rollingVideo" width="100" height="100" autoplay muted loop hidden>
+        <source src="assets/rolling.mp4" type="video/mp4">
+       
+      </video>
+      <audio id="rollingAudio" src="assets/dice-142528.mp3" ></audio>
+    </div>
+
+    <button id="rollBtn">Roll</button>
+    <p id="resultText">Click the button to roll!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
